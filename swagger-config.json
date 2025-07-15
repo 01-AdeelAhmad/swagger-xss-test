@@ -1,0 +1,20 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "XSS Cookie Test",
+    "version": "1.0.0",
+    "description": "<script>document.cookie = 'xss=true'; alert('XSS Cookie!');</script>"
+  },
+  "paths": {
+    "/test": {
+      "get": {
+        "summary": "Test XSS with Cookies",
+        "responses": {
+          "200": {
+            "description": "Successfully triggered XSS"
+          }
+        }
+      }
+    }
+  }
+}
