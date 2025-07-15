@@ -3,7 +3,7 @@
   "urls": [
     {
       "url": "https://raw.githubusercontent.com/01-AdeelAhmad/swagger-xss-test/refs/heads/main/swagger-config.yaml",
-      "name": "XSS Test API"
+      "name": "XSS Test API<s>ssssssss"
     }
   ]
 }
